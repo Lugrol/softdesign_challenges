@@ -22,10 +22,10 @@ Feature: Login
 
 		Examples:
 			|username	|password	|error			|
-			|jZ		|8OV/2		|Campo Login inválido	|
-			|3jZ		|8OV/2		|Campo Login inválido	|
-			|Mjcgm2npq*	|2N4C* /ct+	|Campo Login inválido	|
-			|Mjcgm2npqYk	|2N4C* /ct+	|Campo Login inválido	|
-			|jjZ		|OV/2		|Campo Senha inválido	|
-			|jjZ		|aOV/2		|Campo Senha inválido	|
-			|Mjcgm2npqY	|2N4C* /ct+$	|Campo Senha inválido	|
+			|jZ		|8OV/2		|Campo Login inválido!	|
+			|3jZ		|8OV/2		|Campo Login inválido!	|
+			|Mjcgm2npq*	|2N4C* /ct+	|Campo Login inválido!	|
+			|Mjcgm2npqYk	|2N4C* /ct+	|Campo Login inválido!	|
+			|jjZ		|OV/2		|Campo Senha inválido!	|
+			|jjZ		|aOV/2		|Campo Senha inválido!	|
+			|Mjcgm2npqY	|2N4C* /ct+$	|Campo Senha inválido!	|
