@@ -3,6 +3,7 @@ Feature: Login
 	This is a simulation of a test suite in BDD format.
 	Usernames must match this regular expression: ^[a-zA-Z][a-zA-Z0-9]{2,9}$
 	Passwords must match this regular expression: ^\d.{4,9}$
+ 	Password field might be vulnerable to SQL injection attacks.
 
 	Scenario Outline: Valid Credentials
 		Given the login page is open
